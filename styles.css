@@ -1,0 +1,447 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* need to add font style
+and also the right colors
+
+*/
+
+#nav-bar{
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+    height:-2rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+
+}
+#logo{
+    padding-left: 1em;
+    height: 2rem;
+    width: 4.5rem;
+}
+ul{
+    display: flex;
+    margin-left: auto;
+    padding: 0 0 0 1em;
+}
+li{
+    padding: 1.5em 2em 1.5em 2em;
+    list-style: none;
+}
+
+ul > li > #contact-{
+    padding: .5em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3em;
+    transition: ease-in-out 400ms;
+}
+a{
+    text-decoration: none;
+}
+#burgerContainer{
+    display: none;
+}
+#home-{
+    font-weight: bolder;
+    transition: ease-in-out 1000ms;
+}
+#home-:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    transition: ease-in-out 1000ms;
+}
+#pricing-:hover{
+    text-decoration: underline;
+}
+#sign-up-:hover{
+    text-decoration: underline;
+}
+#upload-:hover{
+    text-decoration: underline;
+}
+#contact-:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: ease-in-out 400ms;
+}
+
+
+#flexContrainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0 0 0;
+    padding: 1.5em 0 0 0;
+}
+/*
+ trying to make a seudo element before the image 
+img::before {
+    content: 'tfghnj';
+    width: 20px;
+    height: 700px;
+    background-color: brown;
+} */
+
+#imageFlexContainer{
+    width: 21.5rem;
+    height: 32rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#rectangle{
+    height: 70px;
+    width: 110px;
+    background-color: rgb(29, 95, 29);
+    margin: -300px 0 0 -40px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+}
+#rectangleSmall{
+    height: 50px;
+    width: 90px;
+    background-color: rgb(255, 136, 0);
+    margin: -270px 0 0 -29px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;  
+}
+
+#formContainer{
+    height: 24rem;
+    width: 24rem;
+    margin-top: 4rem;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 1px 100px  rgb(141, 138, 138);
+}
+#whoWeAre{
+    font-size: 10px;
+}
+
+#get-started{
+    margin: .5rem .5rem .5rem 0;
+    padding: .8em 1.5em;
+    background-color: rgb(48, 83, 150);
+    border:none;
+    color: white;
+    border-radius: 5px;
+    transition: ease-in-out 200ms;
+}
+#get-started:hover{
+    margin: .5rem .5rem .5rem 0;
+    padding: .8em 1.5em;
+    background-color: rgb(30, 53, 95);
+    border:none;
+    border-radius: 5px;
+    transition: ease-in-out 200ms;
+}
+#learn-more{
+    padding: 1rem;
+    background-color: azure;
+    padding: .8em 1.5em;
+    background-color: rgb(255, 255, 255);
+    border: .5px solid rgba(63, 61, 61, .8);
+    transition: ease-in-out 200ms;
+    border-radius: 5px;
+}
+#learn-more:hover{
+    padding: 1rem;
+    color: white;
+    padding: .8em 1.5em;
+    background-color: rgb(48, 83, 150);
+    border: .5px solid rgba(63, 61, 61, .8);
+    transition: ease-in-out 200ms;
+    border-radius: 5px;
+}
+#courses{
+    text-decoration: underline;
+
+}
+#services{
+    margin: 0 1rem;
+}
+#form{
+    margin: .5rem 0;
+}
+#flexForm{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#department{
+    padding: 1rem;
+    border:  1px solid black;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+#faculty{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+#year{
+    padding: 1rem;
+    border:  1px solid black;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+#level{
+    padding: 1rem;
+    border:  1px solid black;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+#submit{
+    margin: .5rem .5rem .5rem 0;
+    padding: .8em 1.5em;
+    background-color: rgb(48, 83, 150);
+    border:none;
+    margin: .5rem .5rem .5rem 9rem;
+    color: white;
+    border-radius: 5px;
+    transition: ease-in-out 200ms;
+}
+#submit:hover{
+    
+    padding: .8em 1.5em;
+    background-color: rgb(30, 53, 95);
+    border:none;
+    border-radius: 5px;
+    transition: ease-in-out 200ms;
+}
+#circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 136, 0);
+    position: fixed;
+    z-index: -1;
+    margin: -7rem 0 0 5rem;
+}
+#angle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom:100px solid  rgb(29, 95, 29) ;
+    position: fixed;
+    z-index: -1;
+    margin: -8rem 0 0 65rem;
+}
+#circle1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 136, 0);
+    position: fixed;
+    z-index: -1;
+    margin: -7rem 0 0 13rem;
+}
+#circle2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 136, 0);
+    position: fixed;
+    z-index: -1;
+    margin: -7rem 0 0 18rem;
+}
+#userAndResult{
+    margin: 8rem 0 0 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#resultImg{
+    border-radius: 10px;
+}
+#userList > div{
+    margin: 1rem 0 0 0;
+}
+#contactUsContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 0 0;
+}
+#contactUs{
+    margin: 1rem;
+
+}
+input{
+    display:block;
+    border-radius: 10px;
+    width: 15rem;
+    
+}
+#input1{
+    margin-bottom: 1rem;
+    padding: 1rem 0 1rem 1rem;
+}
+#input2{
+    margin-bottom: 2rem;
+    padding: 1rem 0 1rem 1rem;
+}
+#input3{
+    margin-bottom: 2rem;
+    padding: 0rem 0 1rem 1rem;
+    height: 8rem;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    #flexContrainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 0 0 0;
+        padding: 5rem 0 0 0;
+    }
+    .ul{
+       position: fixed;
+       left: -100%;
+       top: 50px;
+        height: 100vh;
+        flex-direction: column;
+        color: aliceblue;
+        background-color: black;
+        width: 80%;
+        transition: 400ms ease-in-out;
+    }
+    .activeUl{
+       position: fixed;
+       left:0;
+       top: 50px;
+        height: 100vh;
+        flex-direction: column;
+        color: aliceblue;
+        background-color: black;
+        width: 80%;
+        transition: 400ms ease-in-out;
+
+    }
+    li{
+        padding: 2rem 0 2rem 0;
+        color: aliceblue;
+        font-size: 1.5rem;
+        padding: 4rem 0 0 0;
+    }
+   
+    #nav-bar{
+        /* display: block; */
+        position: fixed;
+        height: 50px;
+        margin-top: 0;
+    }
+    #burgerContainer{
+       display: block;
+       margin-right: 10px;
+    }
+    ul > li > #contact-{
+        margin:0;
+        padding:0 0 0 0;
+        border: 0;
+    
+    }
+    
+
+    #first{
+        height: 8px;
+        width: 50px;
+        background-color: black;
+        margin: 5px 0 2px 0 ;
+        border-radius: 10px;
+        transition: 400ms ease-in-out;
+    }
+    .first1{
+        height: 8px;
+        width: 50px;
+        background-color: black;
+        margin: 5px 0 2px 0 ;
+        border-radius: 10px;
+        transform: translateY(12px) rotate(45deg);    
+        transition: 400ms ease-in-out;
+    }
+    .second{
+        height: 8px;
+        width: 50px;
+        background-color: black;
+        border-radius: 10px;
+        margin: 5px 0 2px 0 ;
+        opacity: 1;
+        transition: 400ms ease-in-out;
+    }
+    .second1{
+        height: 8px;
+        width: 50px;
+        background-color: black;
+        border-radius: 10px;
+        margin: 5px 0 2px 0 ;
+        opacity: 0;
+        transition: 400ms ease-in-out;
+    }
+    #third{
+        margin: 5px 0 2px 0 ;
+        height: 8px;
+        width: 50px;
+        border-radius: 10px;
+        background-color: black;
+        transition: 400ms ease-in-out;
+    }
+    .third1{
+        margin: 5px 0 2px 0 ;
+        height: 8px;
+        width: 50px;
+        border-radius: 10px;
+        background-color: black;
+        transform: translateY(-13px) rotate(-45deg);  
+        transition: 400ms ease-in-out;
+    }
+    a{
+        color: aliceblue;
+    }
+
+    #flexContrainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        
+        padding: 6em 0 0 0;
+    }
+
+    #imageFlexContainer{
+        margin-top: 4rem;
+    }
+    #userAndResult{
+        margin: 8rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-around;
+    }
+    #userList{
+        margin: 1rem 0 5rem 0;
+    }
+    #contactUsContainer{
+        justify-content: space-around;
+        margin: 2rem 0 0 0;
+        flex-direction: column-reverse;
+    }
+
+    
+
+}
