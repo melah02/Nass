@@ -4,7 +4,7 @@ const first = document.getElementById('first');
 const second = document.querySelector('.second');
 const third = document.getElementById('third');
 const click = document.querySelectorAll('nav-link');
-const SubmitBtn = documnet.querySelector('submit');
+const SubmitBtn = document.querySelector('submit');
 
 
 const fileUploaderDisplayButton = document.getElementById('upload');
@@ -19,7 +19,6 @@ handBurgerMenu.addEventListener('click',function (){
    
 });
 var uploadFileType  = (function() {
-    console.log('working')
     var executed = false;
     return function() {
         if (!executed) {
