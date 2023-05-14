@@ -4,7 +4,7 @@ const first = document.getElementById('first');
 const second = document.querySelector('.second');
 const third = document.getElementById('third');
 const click = document.querySelectorAll('nav-link');
-const SubmitBtn = document.querySelector('submit');
+const SubmitBtn = document.getElementById('submit');
 
 
 const fileUploaderDisplayButton = document.getElementById('upload');
