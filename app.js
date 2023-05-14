@@ -32,7 +32,7 @@ var uploadFileType  = (function() {
     };
 })();
 
-Submit.addEventListener('click', function(e){
+SubmitBtn.addEventListener('click', function(e){
     e.preventDefault();
 })
 
