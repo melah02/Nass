@@ -1,12 +1,14 @@
+
+
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: montserrat, sans-serif, Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
-/* need to add font style
-and also the right colors
+a{
+    text-decoration: none;
 
-*/
+}
 
 #nav-bar{
     cursor: pointer;
@@ -41,8 +43,25 @@ ul > li > #contact-{
     border-radius: 3em;
     transition: ease-in-out 400ms;
 }
-a{
+#courses{
     text-decoration: none;
+    color: black;
+    background-color: none;
+    border: none;
+    
+
+}
+#upload{
+    text-decoration: none;
+    color: black;
+    background-color: none;
+    border: none;
+}
+#upload:hover{
+    text-decoration: underline;
+}
+#courses:hover{
+    text-decoration: underline;
 }
 #burgerContainer{
     display: none;
@@ -164,13 +183,6 @@ img::before {
     transition: ease-in-out 200ms;
     border-radius: 5px;
 }
-#courses{
-    text-decoration: underline;
-
-}
-#services{
-    margin: 0 1rem;
-}
 #form{
     margin: .5rem 0;
 }
@@ -178,6 +190,10 @@ img::before {
     display: flex;
     justify-content: space-around;
    
+}
+.file{
+    display: flex;
+    align-items: center;
 }
 
 #department{
@@ -343,7 +359,7 @@ input{
     #nav-bar{
         /* display: block; */
         position: fixed;
-        height: 50px;
+        height: 70px;
         margin-top: 0;
     }
     #burgerContainer{
@@ -359,55 +375,55 @@ input{
     
 
     #first{
-        height: 8px;
-        width: 50px;
+        height: 10px;
+        width: 55px;
         background-color: black;
-        margin: 5px 0 2px 0 ;
+        margin: 5px 0 10px 0 ;
         border-radius: 10px;
         transition: 400ms ease-in-out;
     }
     .first1{
-        height: 8px;
-        width: 50px;
+        height: 10px;
+        width: 55px;
         background-color: black;
-        margin: 5px 0 2px 0 ;
+        margin: 5px 0 10px 0 ;
         border-radius: 10px;
-        transform: translateY(12px) rotate(45deg);    
+        transform: translateY(18px) rotate(45deg);    
         transition: 400ms ease-in-out;
     }
     .second{
-        height: 8px;
-        width: 50px;
+        height: 10px;
+        width: 55px;
         background-color: black;
         border-radius: 10px;
-        margin: 5px 0 2px 0 ;
+        margin: 5px 0 10px 0 ;
         opacity: 1;
         transition: 400ms ease-in-out;
     }
     .second1{
-        height: 8px;
-        width: 50px;
+        height: 10px;
+        width: 55px;
         background-color: black;
         border-radius: 10px;
-        margin: 5px 0 2px 0 ;
+        margin: 5px 0 10px 0 ;
         opacity: 0;
         transition: 400ms ease-in-out;
     }
     #third{
-        margin: 5px 0 2px 0 ;
-        height: 8px;
-        width: 50px;
+        margin: 5px 0 10px 0 ;
+        height: 10px;
+        width: 55px;
         border-radius: 10px;
         background-color: black;
         transition: 400ms ease-in-out;
     }
     .third1{
-        margin: 5px 0 2px 0 ;
-        height: 8px;
-        width: 50px;
+        margin: 5px 0 10px 0 ;
+        height: 10px;
+        width: 55px;
         border-radius: 10px;
         background-color: black;
-        transform: translateY(-13px) rotate(-45deg);  
+        transform: translateY(-20px) rotate(-45deg);  
         transition: 400ms ease-in-out;
     }
     a{
@@ -445,3 +461,5 @@ input{
     
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
